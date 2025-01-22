@@ -23,7 +23,9 @@ Este es el frontend de la aplicación de tienda creada como parte de una prueba 
 3. Instala las dependencias:
    ```bash
    npm install
-4. Ejecuta la aplicación en modo desarrollo:
+4. Configura las variables de entorno: Crea un archivo .env en la raíz del proyecto y agrega la siguiente línea, especificando la URL de la API:
+    NEXT_PUBLIC_API_URL = "https://backend-store-prueba-tecnica.vercel.app" o "http://localhost:3000" si estas ejecutando la api en local
+5. Ejecuta la aplicación en modo desarrollo:
    ```bash
    npm run dev
 Esto iniciará el servidor en http://localhost:3000 o en http://localhost:3001 si el puerto ya esta ocupado por el servidor backend

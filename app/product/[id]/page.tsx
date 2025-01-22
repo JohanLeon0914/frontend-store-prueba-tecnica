@@ -31,7 +31,7 @@ async function page(props: { params: Params }) {
   const products = await getProducts();
 
   return (
-    <div>
+    <div className="bg-gray-100">
       <Container>
         <SingleProduct product={product!}/>
 

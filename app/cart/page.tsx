@@ -8,7 +8,7 @@ const CartPage = () => {
   const { cartItems, totalPrice } = useSelector((state: RootState) => state.cart); 
 
   return (
-    <div className="p-4 bg-gray-100">
+    <div className="p-4 bg-gray-100 px-4 xl:px-40">
       <h2 className="text-2xl font-semibold mb-4">Your Shopping Cart</h2>
 
       {cartItems.length > 0 ? (

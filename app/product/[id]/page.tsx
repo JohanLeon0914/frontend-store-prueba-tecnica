@@ -8,8 +8,8 @@ async function getProduct(id: string) {
     const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/products/${id}`);
     return response.data;
   } catch (error) {
-    console.error("Error al obtener el producto:", error);
-    throw new Error("No se pudo obtener el producto");
+    console.error("Error getting product:", error);
+    throw new Error("Could not get the product");
   }
 }
 
@@ -18,8 +18,8 @@ async function getProducts() {
     const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/products`);
     return response.data;
   } catch (error) {
-    console.error("Error al obtener los productos:", error);
-    throw new Error("No se pudo obtener los productos");
+    console.error("Error getting product:", error);
+    throw new Error("Could not get the product");
   }
 }
 

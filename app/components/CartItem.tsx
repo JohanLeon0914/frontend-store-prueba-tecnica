@@ -27,7 +27,7 @@ const CartItemComponent = () => {
           >
             <div className="flex items-center gap-x-3 w-full md:w-1/3">
               <span
-                onClick={() => dispatch(removeFromCart(item.id))}  // Usamos el id del producto
+                onClick={() => dispatch(removeFromCart(item.id))} 
                 className="text-lg hover:text-red-600 cursor-pointer duration-200"
               >
                 <AiOutlineClose />

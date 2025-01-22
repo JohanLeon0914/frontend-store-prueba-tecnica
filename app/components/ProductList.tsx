@@ -9,6 +9,7 @@ import ProductsData from "./ProductData";
 
 interface ProductListProps {
   products: Product[];
+  singleCarousel?: boolean; 
 }
 
 const chunkArray = (arr: Product[], size: number) => {
@@ -17,8 +18,8 @@ const chunkArray = (arr: Product[], size: number) => {
   );
 };
 
-export default function ProductList({ products }: ProductListProps) {
-  const productChunks = chunkArray(products, 6);
+export default function ProductList({ products, singleCarousel = false }: ProductListProps) {
+  const productChunks = singleCarousel ? [products] : chunkArray(products, 6);
 
   return (
     <div className="w-full max-w-6xl mx-auto">

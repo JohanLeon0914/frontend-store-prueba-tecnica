@@ -2,7 +2,7 @@
 
 Este es el frontend de la aplicación de tienda creada como parte de una prueba técnica. La aplicación está construida con Next.js, TailwindCSS, Redux y TypeScript. 
 - Esta aplicación frontend está desplegada en https://frontend-store-prueba-tecnica.vercel.app.
-- La API backend que maneja los productos y el carrito de compras es consumida a través de la API desplegada en https://backend-store-prueba-tecnica.vercel.app.
+- El backend que maneja los productos y el carrito de compras es consumida a través de la API desplegada en https://backend-store-prueba-tecnica.vercel.app.
 
 
 

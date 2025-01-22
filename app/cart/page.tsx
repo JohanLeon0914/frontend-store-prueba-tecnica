@@ -27,7 +27,7 @@ const CartPage = () => {
             Your cart is currently empty
           </p>
           <Link href="/">
-            <button className="bg-darkText text-white py-2 px-6 rounded-md hover:bg-orange-600 duration-200">
+            <button className="bg-slate-800 text-slate-100 py-2 px-6 rounded-md hover:bg-orange-600 duration-200">
               Return to Shop
             </button>
           </Link>

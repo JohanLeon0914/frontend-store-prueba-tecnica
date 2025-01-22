@@ -1,10 +1,7 @@
 "use client";
 import {
-  BsYoutube,
   BsGithub,
   BsLinkedin,
-  BsFacebook,
-  BsReddit,
 } from "react-icons/bs";
 import Container from "./Container";
 import Logo from "./Logo";

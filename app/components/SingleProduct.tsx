@@ -14,7 +14,6 @@ interface ProductProps {
 const SingleProduct = ({ product }: ProductProps) => {
   const dispatch = useDispatch();
 
-  // Agregar al carrito
   const handleAddToCart = () => {
     dispatch(addToCart(product));  
     toast.success(`${product?.name.substring(0, 15)} added successfully!`);  

@@ -62,7 +62,6 @@ const cartSlice = createSlice({
         state.totalQuantity -= 1;
         state.totalPrice -= existingItem.price;
       } else if (existingItem && existingItem.quantity === 1) {
-        // Si la cantidad es 1, podemos eliminar el producto del carrito
         state.cartItems = state.cartItems.filter(item => item.id !== action.payload.id);
         state.totalQuantity -= 1;
         state.totalPrice -= existingItem.price;

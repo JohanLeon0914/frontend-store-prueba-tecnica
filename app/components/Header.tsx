@@ -29,7 +29,7 @@ function Header() {
 
   return (
     <div className="bg-white h-20 sticky top-0 z-50">
-      <div className="h-full flex justify-between items-center px-4">
+      <div className="h-full flex justify-between items-center px-4 xl:px-40">
         <Logo />
 
         <Link href="/cart">

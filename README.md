@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend de la Tienda - Prueba Técnica
 
-## Getting Started
+Este es el frontend de la aplicación de tienda creada como parte de una prueba técnica. La aplicación está construida con Next.js, TailwindCSS, Redux y TypeScript. La API backend que maneja los productos y el carrito de compras es consumida a través de la API desplegada en https://backend-store-prueba-tecnica.vercel.app.
 
-First, run the development server:
+La aplicación frontend está desplegada en (https://frontend-store-prueba-tecnica.vercel.app).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Visualización de productos disponibles.
+- Gestión del carrito de compras (agregar y eliminar productos).
+- Integración con la API backend para la gestión de productos y el carrito.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Cómo Ejecutar la Aplicación
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/JohanLeon0914/frontend-store-prueba-tecnica.git
+2. Entra en la carpeta del proyecto:
+   ```bash
+   cd frontend-store-prueba-tecnica
+3. Instala las dependencias:
+   ```bash
+   npm install
+4. Ejecuta la aplicación en modo desarrollo:
+   ```bash
+   npm run dev
+Esto iniciará el servidor en http://localhost:3000 o en http://localhost:3001 si el puerto ya esta ocupado por el servidor backend
